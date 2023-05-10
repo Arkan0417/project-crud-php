@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.driver .member{
+    position: relative;
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background: #fff;
+}
+
+.driver .member .driverpic{
+    overflow: hidden;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.driver .member .member-info{
+    padding-left: 30px;
+}
+
+.driver .member h4{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+.driver .member span{
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+}
+
+.driver .member span::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 55px;
+    height: 2px;
+    background: rgba(255, 0, 0, 0.897);
+    bottom: 0;
+    left: 0;
+}
+
+.driver .member p{
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+
+.driver .member .buttondriver{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.driver .member .buttondriver button{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: black;
+}
+
+.driver .member .buttondriver button i{
+    margin-left: 7px;
+}
+
+.driver .member .buttondriver button:hover{
+    background: black;
+    color: white;
+}
+
+section{
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.section-title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h2{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.section-title p{
+    margin-top: 20px;
+}
+
+.underline{
+    width: 150px;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+    margin-top: -30px;
+
+}
